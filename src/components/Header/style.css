@@ -20,8 +20,9 @@ span {
   color: #000;
 }
 
-ul {
+.ul-nav {
   display: flex;
+  flex-direction: row;
   margin: 0;
   padding: 0;
 }
@@ -37,17 +38,25 @@ a {
   color: rgb(0, 0, 0);
 }
 
+.login-button {
+  display: none;
+}
+
 a:hover {
   color: #fff;
   background-color: #000;
 }
 
-/* @media (max-width: 704px) {
-  ul li a:nth-last-child() {
-    display: none;
+@media (mix-width: 704px) {
+
+  .login-button {
+    background-color: #D6000D;
+    color: #fff;
+    padding: 10px 50px;
+    gap: 20px;
   }
 
   nav {
     justify-items: center;
   }
-} */
+}

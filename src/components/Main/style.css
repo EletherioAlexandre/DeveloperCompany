@@ -1,42 +1,53 @@
-.conteudo {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.content {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
   margin: 2rem 0;
   max-width: 800px;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media (min-width: 498px) {
-  .conteudo {
+  .content {
     grid-template-columns: 1fr 1fr;
-  } 
+  }
 }
 
 img {
   max-width: 90%;
   display: block;
+  margin-top: 40px;
 }
 
-.conteudo-item {
+.first-content {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
 }
 
-p {
+.first-content-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main-paragraph {
   margin-top: 60px;
   font-weight: bold;
   font-size: 1.3em;
   text-align: center;
 }
 
-span {
+.website {
   color: #D6000D;
   font-size: 3rem;
 }
 
-button {
+#request-order {
   background-color: #D6000D;
   color: white;
   border: none;
@@ -44,8 +55,103 @@ button {
   padding: 15px 70px;
   cursor: pointer;
   font-size: 1.2rem;
+  margin-bottom: 40px;
 }
 
-button:hover {
+button:hover,
+#request-order:hover {
   background-color: #000;
+}
+
+.third-content-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-content-item div input {
+  background-color: #d3d3d3;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.third-content-item p {
+  font-weight: bold;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.contact {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+
+.callService {
+  background-color: #D6000D;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 70px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+li:not(.nav-item) {
+  list-style-image: url('../../assets/images/circle-check.svg');
+}
+
+.fourth-content-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-one,
+.card-two {
+  background-color: #d3d3d3;
+  max-width: 300px;
+  border-radius: 10px;
+  padding: 2px 0px 1px 60px;
+  position: relative;
+}
+
+.card-one,
+.card-two p {
+  font-size: .9rem;
+}
+
+.card-one p+p,
+.card-two p+p {
+  font-weight: bold;
+}
+
+.card-one::after {
+  content: "";
+  background-color: #D6000D;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  text-align: 47px;
+  left: 5px;
+  top: 30px;
+}
+
+.card-two::after {
+  content: "";
+  background-color: #D6000D;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  text-align: 47px;
+  left: 5px;
+  top: 30px;
 }
