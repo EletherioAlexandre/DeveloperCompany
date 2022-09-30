@@ -1,9 +1,12 @@
 import React from 'react';
+import { useState } from 'react';
 import './style.css';
 import videoCall from '../../assets/images/videoCall.png';
 import coding from '../../assets/images/coding.png';
 
 const Main = () => {
+
+  const [field, setField] = useState();
   
   return (
     <main className='content'>
@@ -33,8 +36,8 @@ const Main = () => {
       <div className='third-content-item'>
         <p>Nossa equipe está à disposição!</p>
         <div className='contact'>
-          <input type='text' placeholder='Celular' />
-          <button className='callService'>Ligamos para você</button>
+          <input type='tel' placeholder='Celular' value={field} onChange={(e) => setField(e.target.value)} />
+          <button className='callService' onClick={() => setField("")}>Ligamos para você</button>
         </div>
       </div>
       <div className="fourth-content-item">
