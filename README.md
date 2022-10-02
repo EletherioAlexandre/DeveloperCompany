@@ -22,7 +22,7 @@
 * [Desafio](#desafio)
 * [Techs](#techs)
 * [Deploy](#Deploy)
-* [Como rodar o projeto em sua máquina](#Como-rodar-o-projeto-em-sua-máquina:)
+* [Como rodar o projeto em sua máquina](#Como-rodar-o-projeto-em-sua-máquina)
 
 # Devchallenge
 Este desafio foi proposto pela <a href="https://www.linkedin.com/in/lorenagmontes/">Lorena Montes</a> no <a href="https://devchallenge.now.sh/"> DevChallenge</a>, onde me permitiu desenvolver este projeto e minhas habilidades de desenvolvimento web.
