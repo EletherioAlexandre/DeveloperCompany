@@ -8,14 +8,13 @@ nav {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-bottom: 20px;
-  border-bottom: 2px solid gray;
 }
 
 h1 {
   color: #D6000D;
-  padding-left: 10px;
+  padding-left: 30px;
   font-style: italic;
+  font-size: 3rem;
 }
 
 span {
@@ -49,17 +48,35 @@ a:hover {
   background-color: #000;
 }
 
-@media (min-width: 704px) {
+@media screen and (min-width: 704px) {
+
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+  }
+
+  a.login-button {
+    color: #fff;
+    padding: 10px 50px;
+  }
+
+  .ul-nav {
+    flex-direction: row;
+    margin: 0;
+    padding-right: 15px;
+    align-items: center;
+    gap: 20px;
+  }
 
   .login-button {
-    background-color: #D6000D;
     padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #D6000D;
     color: #fff;
-    gap: 20px;
     display: block;
   }
 
-  nav {
-    justify-items: center;
-  }
 }

@@ -9,9 +9,9 @@ const Header = () => {
       <h1>Codar<span>.</span></h1>
       <ul className='ul-nav'>
         <li className='nav-item'><a href='/'>Início</a></li>
-        <li className='nav-item'><a href='/'>Serviços</a></li>
+        <li className='nav-item'><a href='#services'>Serviços</a></li>
         <li className='nav-item'><a href='/'>Contato</a></li>
-        <li className="login-button nav-item"><a href='/'>Login</a></li>
+        <li className="nav-item"><a href='/' className='login-button '>Login</a></li>
       </ul>
     </nav>
     </>

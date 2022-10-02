@@ -37,3 +37,27 @@
   gap: 20px;
   padding-bottom: 20px;
 }
+
+@media screen and (min-width: 704px) {
+  .footer-container {
+    grid-template-columns: 0.4fr 1fr;
+    background-color: #000;
+    color: #fff;
+    justify-items: center;
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+  }
+
+  .title {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-content {
+    margin-left: 20px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+}
+}

@@ -2,9 +2,3 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.body-app {
-  background-image: url('../src/assets/images/grayBG.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
