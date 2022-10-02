@@ -34,7 +34,8 @@ O desafio era criar uma página sobre uma empresa que desenvolve sites.
 <img src="https://i.ibb.co/wpnzvcs/codar-desktop.jpg" width="580" height="380">
 
 # Techs: 
-ReactJS<br>
+ReactJS<br />
+React Icons<br />
 CSS3
 
 # Deploy: 
